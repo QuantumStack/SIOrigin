@@ -4,6 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+
 /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
 particlesJS.load('particles-js', 'assets/particles.json', function() {
 	console.log('callback - particles.js config loaded');
@@ -34,77 +35,77 @@ particlesJS.load('particles-js', 'assets/particles.json', function() {
 		});
 
 	// Slideshow Background.
-		(function() {
+		// (function() {
 
-			// Settings.
-				var settings = {
+		// 	// Settings.
+		// 		var settings = {
 
-					// Images (in the format of 'url': 'alignment').
-						images: {
-							'images/bg01.jpg': 'center',
-							'images/bg02.jpg': 'center',
-							'images/bg03.jpg': 'center'
-						},
+		// 			// Images (in the format of 'url': 'alignment').
+		// 				images: {
+		// 					'images/bg01.jpg': 'center',
+		// 					'images/bg02.jpg': 'center',
+		// 					'images/bg03.jpg': 'center'
+		// 				},
 
-					// Delay.
-						delay: 5000
+		// 			// Delay.
+		// 				delay: 5000
 
-				};
+		// 		};
 
-			// Vars.
-				var	pos = 0, lastPos = 0,
-					$wrapper, $bgs = [], $bg,
-					k, v;
+		// 	// Vars.
+		// 		var	pos = 0, lastPos = 0,
+		// 			$wrapper, $bgs = [], $bg,
+		// 			k, v;
 
-			// Create BG wrapper, BGs.
-				$wrapper = document.createElement('div');
-					$wrapper.id = 'bg';
-					$body.appendChild($wrapper);
+		// 	// Create BG wrapper, BGs.
+		// 		$wrapper = document.createElement('div');
+		// 			$wrapper.id = 'bg';
+		// 			$body.appendChild($wrapper);
 
-				for (k in settings.images) {
+		// 		for (k in settings.images) {
 
-					// Create BG.
-						$bg = document.createElement('div');
-							$bg.style.backgroundImage = 'url("' + k + '")';
-							$bg.style.backgroundPosition = settings.images[k];
-							$wrapper.appendChild($bg);
+		// 			// Create BG.
+		// 				$bg = document.createElement('div');
+		// 					$bg.style.backgroundImage = 'url("' + k + '")';
+		// 					$bg.style.backgroundPosition = settings.images[k];
+		// 					$wrapper.appendChild($bg);
 
-					// Add it to array.
-						$bgs.push($bg);
+		// 			// Add it to array.
+		// 				$bgs.push($bg);
 
-				}
+		// 		}
 
-			// Main loop.
-				$bgs[pos].classList.add('visible');
-				$bgs[pos].classList.add('top');
+		// 	// Main loop.
+		// 		$bgs[pos].classList.add('visible');
+		// 		$bgs[pos].classList.add('top');
 
-				// Bail if we only have a single BG or the client doesn't support transitions.
-					if ($bgs.length == 1
-					||	!canUse('transition'))
-						return;
+		// 		// Bail if we only have a single BG or the client doesn't support transitions.
+		// 			if ($bgs.length == 1
+		// 			||	!canUse('transition'))
+		// 				return;
 
-				window.setInterval(function() {
+		// 		window.setInterval(function() {
 
-					lastPos = pos;
-					pos++;
+		// 			lastPos = pos;
+		// 			pos++;
 
-					// Wrap to beginning if necessary.
-						if (pos >= $bgs.length)
-							pos = 0;
+		// 			// Wrap to beginning if necessary.
+		// 				if (pos >= $bgs.length)
+		// 					pos = 0;
 
-					// Swap top images.
-						$bgs[lastPos].classList.remove('top');
-						$bgs[pos].classList.add('visible');
-						$bgs[pos].classList.add('top');
+		// 			// Swap top images.
+		// 				$bgs[lastPos].classList.remove('top');
+		// 				$bgs[pos].classList.add('visible');
+		// 				$bgs[pos].classList.add('top');
 
-					// Hide last image after a short delay.
-						window.setTimeout(function() {
-							$bgs[lastPos].classList.remove('visible');
-						}, settings.delay / 2);
+		// 			// Hide last image after a short delay.
+		// 				window.setTimeout(function() {
+		// 					$bgs[lastPos].classList.remove('visible');
+		// 				}, settings.delay / 2);
 
-				}, settings.delay);
+		// 		}, settings.delay);
 
-		})();
+		// })();
 
 	// Signup Form.
 		(function() {

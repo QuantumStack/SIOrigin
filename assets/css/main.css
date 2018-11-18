@@ -636,7 +636,7 @@ input, select, textarea {
 			form .message:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -1215,11 +1215,13 @@ input, select, textarea {
     transition: opacity .8s ease, transform 1.4s ease
 }
 
-#particles-js canvas {
+#particles-js {
     width: 100%;
     height: 100%;
     position: fixed;
     z-index: 0;
     top: 0;
-    left: 0
+	left: 0;
+	background-image: linear-gradient(to bottom right, #454E9E, #2C2C4A);
+	opacity: 1.0;
 }
