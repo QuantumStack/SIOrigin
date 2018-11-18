@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 /*
@@ -549,14 +549,15 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		font-family: 'Font Awesome 5 Free';
 	}
 
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: 'Font Awesome 5 Free';
 			font-style: normal;
-			font-weight: normal;
+			font-weight: normal; 
 			text-transform: none !important;
 		}
 
@@ -988,7 +989,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #1fcaa7;
+			background-color: #FFAE03;
 		}
 
 		input[type="submit"]:active,
@@ -996,7 +997,7 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #199e83;
+			background-color: #FFAE03;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
