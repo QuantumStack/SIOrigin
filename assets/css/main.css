@@ -1222,6 +1222,6 @@ input, select, textarea {
     z-index: 0;
     top: 0;
 	left: 0;
-	background-image: linear-gradient(to bottom right, #454E9E, #2C2C4A);
+	background-image: linear-gradient(to bottom right, #000000, #0A0708);
 	opacity: 1.0;
 }
