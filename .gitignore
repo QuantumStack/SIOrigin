@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 .vscode
-=======
-=======
->>>>>>> 777cb0fd3ec27ab1de2d68c28c0979b3c65a6da0
-###Node###
+
+# NODE
 
 # Logs
 logs
@@ -67,9 +63,4 @@ typings/
 
 # next.js build output
 .next
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
 
-.vscode
->>>>>>> 777cb0fd3ec27ab1de2d68c28c0979b3c65a6da0
