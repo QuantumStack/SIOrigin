@@ -392,6 +392,7 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 700;
@@ -1153,6 +1154,11 @@ input, select, textarea {
 					padding-left: 0;
 				}
 
+				#footer .copyright li img {
+					display: inline;
+					height: 1em;
+				}
+
 			#footer .copyright a {
 				color: inherit;
 			}
@@ -1222,6 +1228,18 @@ input, select, textarea {
     z-index: 0;
     top: 0;
 	left: 0;
-	background-image: linear-gradient(to bottom right, #000000, #0A0708);
+	background:  linear-gradient(to bottom right, #000000, #0A0708);
 	opacity: 1.0;
+}
+
+#background {
+	width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 0;
+    top: 0;
+	left: 0;
+	background: url("/assets/images/logo.png");
+	opacity: 0.1;
+	z-index: 1;
 }
