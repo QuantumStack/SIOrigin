@@ -92,7 +92,6 @@ gulp.task('watch', ['babel'], () => {
   ]).on('change', $.livereload.reload);
 
   gulp.watch('app/scripts.babel/**/*.js', ['babel']);
-  gulp.watch('bower.json', ['wiredep']);
 });
 
 gulp.task('size', () => {

@@ -17,17 +17,16 @@
   },
   "permissions": [
     "https://s3.andrew.cmu.edu/*",
-    "cookies",
-    "pageCapture"
+    "cookies"
   ],
   "options_page": "options/index.html",
   "content_scripts": [
     {
       "matches": [
-        "https://s3.andrew.cmu.edu/*"
+        "https://s3.andrew.cmu.edu/sio/*"
       ],
       "js": [
-        "scripts/contentscript.js"
+        "scripts/course-planner.js"
       ]
     }
   ]
