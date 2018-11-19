@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
+  "homepage_url": "https://quantumstack.xyz",
   "icons": {
     "16": "images/icon-16.png",
     "128": "images/icon-128.png"
@@ -15,25 +16,19 @@
     ]
   },
   "permissions": [
-    "tabs",
-    "http://*/*",
-    "https://*/*",
+    "https://s3.andrew.cmu.edu/*",
     "cookies",
-    "*://*.google.com/",
     "pageCapture"
   ],
   "options_page": "options/index.html",
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*"
+        "https://s3.andrew.cmu.edu/*"
       ],
       "js": [
         "scripts/contentscript.js"
-      ],
-      "run_at": "document_end",
-      "all_frames": false
+      ]
     }
   ]
 }
