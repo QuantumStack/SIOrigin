@@ -405,6 +405,11 @@ input, select, textarea {
 			text-decoration: none;
 		}
 
+			h1 img {
+				display: inline;
+				height: 1.5em;
+			}
+
 	h1 {
 		font-size: 2.5em;
 		line-height: 1.25em;
