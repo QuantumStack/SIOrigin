@@ -1,8 +1,9 @@
 'use strict';
 
 const button = document.createElement('button');
-button.className = 'siorigin-btn float-right';
-button.innerText = 'SIOrigin 🐶';
+button.id = 'siorigin-trigger';
+button.className = 'button is-primary is-rounded is-medium float-right';
+button.innerHTML = '<strong>SIOrigin 🐶</strong>';
 
 button.addEventListener('click', () => {
   switch (document.location.hash) {

@@ -1,0 +1,16 @@
+{
+  "name": "siorigin-bulma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sass/siorigin.scss",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.7.2",
+    "node-sass": "^4.11.0"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/siorigin.scss css/siorigin.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+}

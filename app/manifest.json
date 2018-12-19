@@ -32,7 +32,7 @@
         "scripts/siorigin-button.js"
       ],
       "css": [
-        "styles/main.css"
+        "styles/siorigin.css"
       ]
     }
   ]
