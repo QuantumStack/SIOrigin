@@ -1,3 +1,5 @@
 'use strict';
 
-console.log(data);
+makeReq('GET_SCHEDULES', data, (schedules) => {
+  console.log(schedules);
+});

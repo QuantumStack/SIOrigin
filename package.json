@@ -41,7 +41,9 @@
     },
     "extends": "airbnb-base",
     "rules": {
-      "eol-last": 0
+      "no-unused-vars": "off",
+      "strict": "off",
+      "no-undef": "off"
     }
   }
 }
