@@ -2,7 +2,7 @@
 const gulp = require('gulp');
 const gulpLoadPlugins = require('gulp-load-plugins');
 const del = require('del');
-const { runSequence } = require('run-sequence');
+const runSequence = require('run-sequence');
 const wiredep = require('wiredep').stream;
 
 const $ = gulpLoadPlugins();
