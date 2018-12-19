@@ -26,8 +26,13 @@
         "https://s3.andrew.cmu.edu/sio/*"
       ],
       "js": [
+        "scripts/http.js",
         "scripts/extractor.js",
-        "scripts/course-planner.js"
+        "scripts/course-planner.js",
+        "scripts/siorigin-button.js"
+      ],
+      "css": [
+        "styles/main.css"
       ]
     }
   ]

@@ -1,5 +1,8 @@
 'use strict';
 
-makeReq('GET_SCHEDULES', data, (schedules) => {
-  console.log(schedules);
-});
+function coursePlanner() {
+  alert('Welcome to course planner');
+  makeReq('GET_SCHEDULES', data, (schedules) => {
+    console.log(schedules);
+  });
+}
